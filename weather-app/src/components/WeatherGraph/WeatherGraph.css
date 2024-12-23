@@ -1,0 +1,35 @@
+.weather-graph-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+}
+
+.weather-graph-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+  .weather-graph-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .weather-graph-container {
+    max-width: 600px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .weather-graph-container {
+    max-width: 800px;
+    padding: 20px;
+  }
+}
